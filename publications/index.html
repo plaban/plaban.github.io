@@ -267,7 +267,78 @@ function toggleAbstractscientometrics_23(parameter) {
     }
 }
 </script>
-</li></ol>
+</li>
+
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+ By 0-0 (Accepted/In-Press)
+<div class="text-justify">
+<span id="jis_2023">Singh P. K., &amp; Bhowmick P. K. (2023). Semantics-Aware Query Expansion using Pseudo-Relevance Feedback , <i> Journal of Information Science</i>, <i>0</i>(0), Accepted.</span></div>
+
+<a href="https://doi.org/10.1177/01655515231184831" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexjis_23()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractjis_23()">ABSTRACT</button>
+
+
+<div id="bib_jis_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{jis_23,
+author = {Pankaj Singh and Plaban Kumar Bhowmick},
+title ={Semantics-aware query expansion using pseudo-relevance feedback},
+
+journal = {Journal of Information Science},
+volume = {0},
+number = {0},
+pages = {01655515231184831},
+year = {0},
+doi = {10.1177/01655515231184831},
+}
+</pre>
+</div>
+
+
+<div id="abs_jis_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In this article, a pseudo-relevance feedback (PRF)–based framework is presented for effective query expansion (QE). As candidate expansion terms, the proposed PRF framework considers the terms that are different morphological variants of the original query terms and are semantically close to them. This strategy of selecting expansion terms is expected to preserve the query intent after expansion. While judging the suitability of an expansion term with respect to a base query, two aspects of relation of the term with the query are considered. The first aspect probes to what extent the candidate term is semantically linked to the original query and the second one checks the extent to which the candidate term can supplement the base query terms. The semantic relationship between a query and expansion terms is modelled using bidirectional encoder representations from transformers (BERT). The degree of similarity is used to estimate the relative importance of the expansion terms with respect to the query. The quantified relative importance is used to assign weights of the expansion terms in the final query. Finally, the expansion terms are grouped into semantic clusters to strengthen the original query intent. A set of experiments was performed on three different Text REtrieval Conference (TREC) collections to experimentally validate the effectiveness of the proposed QE algorithm. The results show that the proposed QE approach yields competitive retrieval effectiveness over the existing state-of-the-art PRF methods in terms of the mean average precision (MAP) and precision P at position 10 (P@10). </pre>
+</div>
+
+<script>
+function toggleBibtexjis_23(parameter) {
+    var x= document.getElementById('bib_jis_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractjis_23(parameter) {
+    var x= document.getElementById('abs_jis_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+    
+  
+</ol>
 
 
 
