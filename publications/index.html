@@ -148,9 +148,54 @@ pre{
 
 <div class="text-justify">
 <span id="infometrics_2023">Singh D. K., Bhowmick P. K., &amp; Paik J. H. (2023). Researcher Influence Prediction (ResIP) using Academic Genealogy Network, <i>Journal of Informetrics</i>, <i>17</i>(2), 1–19.</span></div></li>
-<!--<a href="http://doi.org/10.1371/journal.pone.0279641" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexpark_ploseone_2023()">BIB</button>
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractpark_ploseone_2023()">ABSTRACT</button> -->
+<a href="http://doi.org/10.1371/journal.pone.0279641" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexinfometrics_23()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractinfometrics_23()">ABSTRACT</button>
+<div id="bib_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{infometrics_23,
+  author       = {Dhananjay Kumar and
+                  Plaban Kumar Bhowmick and
+                  Jiaul H. Paik},
+  title        = {Researcher influence prediction (ResIP) using academic genealogy network},
+  journal      = {J. Informetrics},
+  volume       = {17},
+  number       = {2},
+  pages        = {101392},
+  year         = {2023},
+  url          = {https://doi.org/10.1016/j.joi.2023.101392},
+  doi          = {10.1016/j.joi.2023.101392},
+  timestamp    = {Thu, 15 Jun 2023 21:57:40 +0200},
+  biburl       = {https://dblp.org/rec/journals/joi/KumarBP23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+</pre>
+</div>
+
+
+<div id="abs_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In academia researchers join a research community over time and contribute to the advancement of a field in a variety of ways. One of the most established ways to contribute to the field is by passing on knowledge to the future generations through academic advising. Many academic scholars have more influence, while others fail to make an impact. Typically, academic influence refers to the ability of a researcher to pass on her/his “academic gene” in future researchers. In this article, we propose the task of Researcher Influence Prediction (ResIP) to predict researchers’ future influence in an academic field through the analysis of the corresponding academic genealogy network. Researcher influence prediction has got several implications as far as different academic outcomes are concerned (e.g. funding, awards, career progression, collaboration, identifying prolific researchers etc.).
+
+To address the ResIP, a number of end-to-end deep learning architectures have been proposed in the current work. The proposed architectures take as input the lineage graph of a researcher at a given time point and predicts the growth of his/her family in future time points. The design of encoder in the proposed architecture considers both temporal and structural information of the input lineage graph while the decoders are tuned towards the nature of the output (single point vs. sequence). The proposed models have been trained, validated and compared with strong baselines using datasets created out of a subset of researchers from the Mathematics Genealogy Project (MGP).</pre>
+</div>
+
+<script>
+function toggleBibtexinfometrics_23(parameter) {
+    var x= document.getElementById('bib_infometrics_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinfometrics_23(parameter) {
+    var x= document.getElementById('abs_infometrics_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
 <li><style>
 .btn{
     margin-bottom:5px;
@@ -177,26 +222,7 @@ pre{
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractscientometrics_23()">ABSTRACT</button>
 
 
-<!--
-<a href="https://minseoksong.github.io/papers/c_park_plosone_2023.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-
-
-
-
-<a href="http://doi.org/10.1371/journal.pone.0279641" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
-
-
-
-
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexpark_ploseone_2023()">BIB</button>
-
-
-
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractpark_ploseone_2023()">ABSTRACT</button>
-
--->
-
-<div id="bib_scientometrics_2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="bib_scientometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@article{scientometrics_23,
   author       = {Dhananjay Kumar and
                   Plaban Kumar Bhowmick and
