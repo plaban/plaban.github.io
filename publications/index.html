@@ -147,11 +147,18 @@ pre{
 
 <div class="text-justify">
 <span id="park_ploseone_2023">Singh D. K., Bhowmick P. K., &amp; Paik J. H. (2023). Researcher Influence Prediction (ResIP) using Academic Genealogy Network, <i>Journal of Informetrics</i>, <i>17</i>(2), 1–19.</span></div>
+<!--<a href="http://doi.org/10.1371/journal.pone.0279641" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexpark_ploseone_2023()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractpark_ploseone_2023()">ABSTRACT</button> -->
+<div class="text-justify">
+<span id="park_ploseone_2023">Singh D. K., Bhowmick P. K., Dey S. &amp; Sanyal D. K. (2023). On the banks of Shodhganga: analysis of the academic genealogy graph of an Indian ETD repository, <i>Scientometrics</i>, <i>128</i>, 3879–3914.</span></div>
+
+<a href="https://doi.org/10.1007/s11192-023-04728-z" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="bib_scientometrics_23()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="abs_scientometrics_23()">ABSTRACT</button>
 
 
-
-
-
+<!--
 <a href="https://minseoksong.github.io/papers/c_park_plosone_2023.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 
 
@@ -168,30 +175,33 @@ pre{
 
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractpark_ploseone_2023()">ABSTRACT</button>
 
-
+-->
 
 <div id="apark_ploseone_2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@article{park_ploseone_2023,
-  doi = {10.1371/journal.pone.0279641},
-  author = {Park, Kangah and Cho, Minsu and Song*, Minseok and Yoo*, Sooyoung and Baek, Hyunyoung and Kim, Seok and Kim, Kidong},
-  journal = {PLOS ONE},
-  publisher = {Public Library of Science},
-  title = {Exploring the potential of OMOP common data model for process mining in healthcare},
-  year = {2023},
-  month = jan,
-  volume = {18},
-  pages = {1-24},
-  number = {1},
-  file = {c_park_plosone_2023.pdf},
-  impact_factor = {2.776},
-  sci = {SCIE}
+<pre>@article{bib_scientometrics_23,
+  author       = {Dhananjay Kumar and
+                  Plaban Kumar Bhowmick and
+                  Sumana Dey and
+                  Debarshi Kumar Sanyal},
+  title        = {On the banks of Shodhganga: analysis of the academic genealogy graph
+                  of an Indian {ETD} repository},
+  journal      = {Scientometrics},
+  volume       = {128},
+  number       = {7},
+  pages        = {3879--3914},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/s11192-023-04728-z},
+  doi          = {10.1007/s11192-023-04728-z},
+  timestamp    = {Sun, 18 Jun 2023 10:49:32 +0200},
+  biburl       = {https://dblp.org/rec/journals/scientometrics/KumarBDS23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 </pre>
 </div>
 
 
-<div id="bpark_ploseone_2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>Background and objective Recently, Electronic Health Records (EHR) are increasingly being converted to Common Data Models (CDMs), a database schema designed to provide standardized vocabularies to facilitate collaborative observational research. To date, however, rare attempts exist to leverage CDM data for healthcare process mining, a technique to derive process-related knowledge (e.g., process model) from event logs. This paper presents a method to extract, construct, and analyze event logs from the Observational Medical Outcomes Partnership (OMOP) CDM for process mining and demonstrates CDM-based healthcare process mining with several real-life study cases while answering frequently posed questions in process mining, in the CDM environment.   Methods We propose a method to extract, construct, and analyze event logs from the OMOP CDM for process types including inpatient, outpatient, emergency room processes, and patient journey. Using the proposed method, we extract the retrospective data of several surgical procedure cases (i.e., Total Laparoscopic Hysterectomy (TLH), Total Hip Replacement (THR), Coronary Bypass (CB), Transcatheter Aortic Valve Implantation (TAVI), Pancreaticoduodenectomy (PD)) from the CDM of a Korean tertiary hospital. Patient data are extracted for each of the operations and analyzed using several process mining techniques.   Results Using process mining, the clinical pathways, outpatient process models, emergency room process models, and patient journeys are demonstrated using the extracted logs. The result shows CDM’s usability as a novel and valuable data source for healthcare process analysis, yet with a few considerations. We found that CDM should be complemented by different internal and external data sources to address the administrative and operational aspects of healthcare processes, particularly for outpatient and ER process analyses.   Conclusion To the best of our knowledge, we are the first to exploit CDM for healthcare process mining. Specifically, we provide a step-by-step guidance by demonstrating process analysis from locating relevant CDM tables to visualizing results using process mining tools. The proposed method can be widely applicable across different institutions. This work can contribute to bringing a process mining perspective to the existing CDM users in the changing Hospital Information Systems (HIS) environment and also to facilitating CDM-based studies in the process mining research community.</pre>
+<div id="abs_scientometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Academic genealogy graphs capture information about the lineage of researchers, encode how knowledge flows from advisors to proteges, and shed light on the birth and evolution of disciplines. In this paper, we study the academic genealogy graph/network (AGN) in Shodhganga which is the Indian Electronic Theses and Dissertations (ETD) database. We have disambiguated the names of the researchers in Shodhganga and constructed the Shodhganga-AGN, which we have analyzed with topological metrics proposed in the literature on general graphs as well as that on genealogy networks. The metrics studied have been able to identify the institutes and researchers that have played a significant role in the development of the Indian higher education system. The largest connected component of Shodhganga-AGN consists of 1356 researchers and 1437 advisor–advisee relationships. The component is dominated by researchers from science and is affiliated primarily with three institutions. We have also studied subgraphs in the genealogy network to identify supervision patterns, and found that most of the subgraph instances connect researchers within a single institution or subject. Thus, our study is a detailed insightful analysis of the academic genealogy of researchers indexed in Shodhganga, and captures the decades-old research ecosystem of India, as expressed through the formal advisor–advisee relationships in Indian universities.</pre>
 </div>
 
 <script>
