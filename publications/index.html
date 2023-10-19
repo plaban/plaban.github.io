@@ -117,68 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     margin-bottom:30px;
 }
 </style>
-<!--
-<div class="jumbotron">
-  <h3 id="preprints">Preprints</h3>
-  <ol class="bibliography" reversed="reversed"></ol>
-</div>
--->
 
-<!--
-<li><style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px:
-}
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
-
-
-<div class="text-justify">
-<span id="infometrics_2023">Singh D. K., Bhowmick P. K., &amp; Paik J. H. (2023). Researcher Influence Prediction (ResIP) using Academic Genealogy Network, <i>Journal of Informetrics</i>, <i>17</i>(2), 1–19.</span></div></li>
-<a href="https://doi.org/10.1016/j.joi.2023.101392" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexinfometrics_23()">BIB</button>
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractinfometrics_23()">ABSTRACT</button>
-<div id="bib_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>
-</pre>
-</div>
-
-
-<div id="abs_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
-</div>
-
-<script>
-function toggleBibtexinfometrics_23(parameter) {
-    var x= document.getElementById('bib_infometrics_23');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractinfometrics_23(parameter) {
-    var x= document.getElementById('abs_infometrics_23');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
--->
 <div class="jumbotron">
   <h3 id="refereed-journal-articles">Refereed journal articles</h3>
   <ol class="bibliography" reversed="reversed">
@@ -457,11 +396,140 @@ function toggleAbstractjis_23(parameter) {
 }
 </script>
 </li>
-    
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="sn_cs_2022">Singh P. K., &amp; Bhowmick P. K. (2022). Neural Network Guided Fast and Efficient Query-Based Stemming by Predicting Term Co-occurrence Statistics, <i>SN Computer Science</i>, <i>3</i>(3), 198.</span></div></li>
+<a href="https://doi.org/10.1007/s42979-022-01081-5" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexsncs_22()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractsncs_22()">ABSTRACT</button>
+<div id="bib_sncs_22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{DBLP:journals/sncs/SinghB22,
+  author       = {Pankaj Singh and
+                  Plaban Kumar Bhowmick},
+  title        = {Neural Network Guided Fast and Efficient Query-Based Stemming by Predicting
+                  Term Co-occurrence Statistics},
+  journal      = {{SN} Comput. Sci.},
+  volume       = {3},
+  number       = {3},
+  pages        = {198},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/s42979-022-01081-5},
+  doi          = {10.1007/s42979-022-01081-5},
+  timestamp    = {Mon, 28 Aug 2023 21:39:33 +0200},
+  biburl       = {https://dblp.org/rec/journals/sncs/SinghB22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+</pre>
+</div>
+
+
+<div id="abs_sncs_22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In information retrieval (IR) systems, stemming is used as a recall enhancing strategy to address the vocabulary mismatch problem arising due to morphological phenomena. Co-occurrence statistics-oriented query-based stemmers have demonstrated remarkable improvement in the retrieval effectiveness. This process involves computation of corpus co-occurrence statistics between different pairs of words to discover morphological variations. This computation, being performed online, has negative impact on the overall search efficiency given that the computation of the co-occurrence statistics is time demanding. The central objective of this work is to develop a faster but approximate method for estimating the co-occurrence of two given words in a corpus to address the efficiency shortcomings of the query-based stemmers. This work presents an empirical study to observe the effect of using predicated co-occurrence in query-based stemming. In particular, the proposed query expansion algorithm aims at predicting the pointwise mutual information (PMI) between a word pair using a ridge regression-based neural network to enhance the efficiency. The neural network model takes as input the word embeddings of a pair of words and learns to predict the PMI value. The predicted PMI value is then used to assign relative importance to the obtained morphological variations to be included in the final query. A set of experiments performed on three different TREC collections to experimentally validate the effectiveness and efficiency of proposed algorithm. The results show that the proposed stemming approach leads to a remarkable efficiency improvement over the existing query-based stemmers without significantly impeding the retrieval effectiveness.</pre>
+</div>
+
+<script>
+function toggleBibtexsncs_22(parameter) {
+    var x= document.getElementById('bib_sncs_22');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractsncs_22(parameter) {
+    var x= document.getElementById('abs_sncs_22');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script> 
   
 </ol>
 
 
+<!--
+<div class="jumbotron">
+  <h3 id="preprints">Preprints</h3>
+  <ol class="bibliography" reversed="reversed"></ol>
+</div>
+-->
+
+<!--
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="infometrics_2023">Singh D. K., Bhowmick P. K., &amp; Paik J. H. (2023). Researcher Influence Prediction (ResIP) using Academic Genealogy Network, <i>Journal of Informetrics</i>, <i>17</i>(2), 1–19.</span></div></li>
+<a href="https://doi.org/10.1016/j.joi.2023.101392" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexinfometrics_23()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractinfometrics_23()">ABSTRACT</button>
+<div id="bib_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>
+</pre>
+</div>
+
+
+<div id="abs_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexinfometrics_23(parameter) {
+    var x= document.getElementById('bib_infometrics_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinfometrics_23(parameter) {
+    var x= document.getElementById('abs_infometrics_23');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+-->
 
 </div>
 
