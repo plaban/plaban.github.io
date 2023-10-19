@@ -465,8 +465,6 @@ function toggleAbstractsncs_22(parameter) {
 }
 </script> 
   
-
-
 <li><style>
 .btn{
     margin-bottom:5px;
@@ -601,6 +599,75 @@ function toggleBibtexcacm_22(parameter) {
 }
 function toggleAbstractcacm_22(parameter) {
     var x= document.getElementById('abs_cacm_22');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="jis_2022">Sanyal D. K., Bhowmick P. K., &amp; Das P. P. (2021). A review of author name disambiguation techniques for the PubMed bibliographic database, <i>Journal of Informormation Science</i>, <i>47</i>(2).</span></div></li>
+<a href="https://doi.org/10.1177/0165551519888" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexjis_22()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractjis_22()">ABSTRACT</button>
+<div id="bib_infometrics_23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{DBLP:journals/jis/SanyalBD21,
+  author       = {Debarshi Kumar Sanyal and
+                  Plaban Kumar Bhowmick and
+                  Partha Pratim Das},
+  title        = {A review of author name disambiguation techniques for the PubMed bibliographic
+                  database},
+  journal      = {J. Inf. Sci.},
+  volume       = {47},
+  number       = {2},
+  year         = {2021},
+  url          = {https://doi.org/10.1177/0165551519888605},
+  doi          = {10.1177/0165551519888605},
+  timestamp    = {Tue, 01 Jun 2021 09:59:33 +0200},
+  biburl       = {https://dblp.org/rec/journals/jis/SanyalBD21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+</pre>
+</div>
+
+
+<div id="abs_jis_22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Author names in bibliographic databases often suffer from ambiguity owing to the same author appearing under different names and multiple authors possessing similar names. It creates difficulty in associating a scholarly work with the person who wrote it, thereby introducing inaccuracy in credit attribution, bibliometric analysis, search-by-author in a digital library and expert discovery. A plethora of techniques for disambiguation of author names has been proposed in the literature. In this article, we focus on the research efforts targeted to disambiguate author names specifically in the PubMed bibliographic database. We believe this concentrated review will be useful to the research community because it discusses techniques applied to a very large real database that is actively used worldwide. We make a comprehensive survey of the existing author name disambiguation (AND) approaches that have been applied to the PubMed database: we organise the approaches into a taxonomy; describe the major characteristics of each approach including its performance, strengths, and limitations; and perform a comparative analysis of them. We also identify the datasets from PubMed that are publicly available for researchers to evaluate AND algorithms. Finally, we outline a few directions for future work.</pre>
+</div>
+
+<script>
+function toggleBibtexjis_22(parameter) {
+    var x= document.getElementById('bib_jis_22');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractjis_22(parameter) {
+    var x= document.getElementById('abs_jis_22');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
